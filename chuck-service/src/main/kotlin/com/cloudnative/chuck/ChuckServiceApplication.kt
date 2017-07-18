@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController
 class ChuckServiceApplication
 
 fun main(args: Array<String>) {
-    SpringApplication.run(BootApplication::class.java, *args)
+    SpringApplication.run(ChuckServiceApplication::class.java, *args)
 }
 
 @RestController
