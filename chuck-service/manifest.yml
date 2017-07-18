@@ -1,0 +1,7 @@
+applications:
+  - name: chuck-service
+    path: build/libs/chuck-service.jar
+    buildpack: java_buildpack
+    random-route: true
+    services:
+      - chuck-dashboard

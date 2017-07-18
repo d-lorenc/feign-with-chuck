@@ -1,0 +1,2 @@
+include 'chuck-repo'
+include 'chuck-service'

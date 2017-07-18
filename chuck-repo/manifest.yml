@@ -1,0 +1,5 @@
+applications:
+  - name: chuck-repo
+    path: build/libs/chuck-repo.jar
+    buildpack: java_buildpack
+    random-route: true
