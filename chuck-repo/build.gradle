@@ -30,7 +30,7 @@ repositories {
 }
 
 ext {
-	springCloudVersion = 'Dalston.SR1'
+	springCloudVersion = 'Camden.SR5'
 }
 
 dependencies {
