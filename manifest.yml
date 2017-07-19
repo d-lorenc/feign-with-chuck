@@ -2,10 +2,8 @@ applications:
   - name: chuck-repo
     path: chuck-repo/build/libs/chuck-repo.jar
     buildpack: java_buildpack
-    random-route: true
   - name: chuck-service
     path: chuck-service/build/libs/chuck-service.jar
     buildpack: java_buildpack
-    random-route: true
     services:
       - chuck-dashboard

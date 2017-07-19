@@ -27,7 +27,7 @@ class ChuckController(val chuckRepoClient: ChuckRepoClient) {
 
 @FeignClient(
         name = "chuck-norris",
-        url = "http://chuck-repo-glassless-phasmajector.cfapps.io",
+        url = "http://chuck-repo.cfapps.io",
         fallback = FakeJoke::class
 )
 interface ChuckRepoClient {
