@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
 @SpringBootApplication
-class ChuckRepoApplication
+class BootApplication
 
 fun main(args: Array<String>) {
-    SpringApplication.run(ChuckRepoApplication::class.java, *args)
+    SpringApplication.run(BootApplication::class.java, *args)
 }
 
 val random = Random()
