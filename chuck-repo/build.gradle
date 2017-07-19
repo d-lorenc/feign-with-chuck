@@ -30,7 +30,7 @@ repositories {
 }
 
 ext {
-	springCloudVersion = 'Camden.SR5'
+	springCloudVersion = 'Camden.SR7'
 }
 
 dependencies {
